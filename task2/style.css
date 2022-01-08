@@ -1,0 +1,9 @@
+.liner-blocks div {
+  display: inline-block;
+}
+.liner-blocks span {
+  display: block;
+  width: 200px;
+  height: 100px;
+  background-color: yellow;
+}
