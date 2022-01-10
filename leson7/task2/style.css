@@ -5,13 +5,13 @@ ul li:first-child span {
   color: white;
   background-color: red;
 }
-ul li:last-of-type span {
+ul li:last-child > span {
   background-color: black;
   color: white;
 }
 ul li:nth-child(even) span {
   margin-left: 16px;
 }
-.paragraphs p:nth-child(odd) {
+.paragraphs > p:nth-of-type(odd) {
   background-color: gray;
 }
