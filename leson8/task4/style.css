@@ -1,6 +1,17 @@
 div {
-  background-color: aqua;
   padding: 50px;
-  border: 3px solid black;
-  margin-bottom: 50px;
+  border: 2px solid black;
+}
+.four {
+  background-color: pink;
+}
+.three {
+  background-color: green;
+}
+.twoo {
+  background-color: yellow;
+}
+.one {
+  background-color: blue;
+  margin: 50px;
 }
