@@ -28,8 +28,8 @@ main {
   width: 200px;
   background-color: aquamarine;
   top: calc(50% - 100px);
-  position: relative;
-  margin: auto;
+  position: absolute;
+  left: calc(50% - 100px);
 }
 .ear {
   width: 40px;
