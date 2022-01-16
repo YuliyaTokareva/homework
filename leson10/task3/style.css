@@ -44,3 +44,13 @@
 .navigation li {
   margin-left: 16px;
 }
+.news__title {
+  text-align: center;
+  margin: 16px 0;
+}
+.list__news {
+  margin: 0;
+}
+.list__news li {
+  margin-left: 16px;
+}
