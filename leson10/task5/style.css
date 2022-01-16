@@ -4,13 +4,17 @@
 header {
   text-align: center;
 }
-.articles-listv {
+.articles-list {
   display: flex;
+  flex-wrap: wrap;
+  box-sizing: content-box;
+  min-width: 300px;
 }
 .article {
   margin: 8px;
   padding: 16px;
   flex-grow: 1;
-
+  flex-basis: min-content;
+  min-width: 300px;
   background-color: bisque;
 }
