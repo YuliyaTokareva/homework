@@ -8,7 +8,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   box-sizing: content-box;
-  min-width: 300px;
+  /*min-width: 300px;*/
 }
 .article {
   margin: 8px;
