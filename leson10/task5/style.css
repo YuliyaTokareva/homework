@@ -16,4 +16,5 @@ header {
   flex-grow: 1;
   background-color: bisque;
   width: 300px;
+  flex-basis: 300px;
 }
