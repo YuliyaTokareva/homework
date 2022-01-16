@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+header {
+  text-align: center;
+}
+.articles-listv {
+  display: flex;
+}
+.article {
+  margin: 8px;
+  padding: 16px;
+  flex-grow: 1;
+
+  background-color: bisque;
+}
