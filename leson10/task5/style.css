@@ -15,6 +15,6 @@ header {
   padding: 16px;
   flex-grow: 1;
   background-color: bisque;
-  width: 300px;
+  /*width: 300px;*/
   flex-basis: 300px;
 }
