@@ -13,6 +13,7 @@
 
 .dropdown {
   position: relative;
+  margin: 16px;
 }
 .menu-list {
   color: black;
