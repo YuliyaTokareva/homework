@@ -10,15 +10,13 @@
   padding: 16px;
   display: inline-block;
   height: 50px;
+  position: relative;
+  margin: 16px;
 }
 .dropdown:hover {
   opacity: 1;
 }
 
-.dropdown {
-  position: relative;
-  margin: 16px;
-}
 .menu-list {
   color: black;
   background-color: lightcyan;
@@ -32,9 +30,9 @@
   top: 50px;
   padding: 0;
   margin-left: -16px;
+  list-style-type: none;
 }
 .menu-item {
-  list-style-type: none;
   padding: 16px;
 }
 .menu-item:hover {
