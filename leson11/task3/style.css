@@ -11,7 +11,7 @@
   display: inline-block;
   position: relative;
   margin: 16px;
-  height: 50px;
+  /* height: 50px; */
 }
 .dropdown:hover {
   opacity: 1;
@@ -26,8 +26,8 @@
   margin: 0;
   padding: 0;
   position: absolute;
-  display: none;
-  top: 50px;
+  display: none; */
+  top: 51px;
   margin-left: -16px;
   list-style-type: none;
 }
