@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .menu-button {
   background-color: darkgreen;
   opacity: 0.8;
