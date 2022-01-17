@@ -12,7 +12,8 @@
   color: white;
   border-radius: 4px;
   padding: 8px;
-  position: absolute;
   bottom: -40px;
-  display: block;
+  display: inline-block;
+  position: absolute;
+  left: 0;
 }
