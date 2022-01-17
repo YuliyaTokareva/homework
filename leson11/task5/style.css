@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+img {
+  margin: 8px;
+}
+.gallery {
+  display: flex;
+  overflow-y: auto;
+}
