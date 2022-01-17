@@ -4,16 +4,16 @@
 .text {
   margin: 16px;
   border-bottom: 1px dotted black;
-  position: absolute;
-  display: inline-block;
+  /* position: absolute;
+  display: inline-block; */
 }
 .tooltip {
   background-color: gray;
   color: white;
   border-radius: 4px;
   padding: 8px;
-  bottom: -40px;
+  /* bottom: -40px;
   display: inline-block;
   position: absolute;
-  left: 0;
+  left: 0; */
 }
