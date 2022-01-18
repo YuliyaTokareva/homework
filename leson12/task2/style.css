@@ -7,6 +7,7 @@ h1 {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
+  margin: auto;
 }
 div {
   height: 200px;
