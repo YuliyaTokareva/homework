@@ -23,7 +23,7 @@ p {
 a {
   text-decoration: none;
 }
-.em {
+em {
   color: gray;
   /* font-style: italic; */
 }
