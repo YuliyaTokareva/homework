@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .image {
   width: 200px;
   height: 200px;
@@ -10,14 +13,3 @@
 .gallery {
   display: flex;
 }
-/* .image:nth-child(1),
-.image:nth-child(2) {
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.image:nth-child(3) {
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-} */
