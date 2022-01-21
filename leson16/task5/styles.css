@@ -8,8 +8,7 @@ button {
   margin: 4px 8px;
 }
 .login-form > div:nth-child(1) input {
-  margin: 0;
-  margin-left: 8px;
+  margin-top: 0;
 }
 .login-form {
   margin: 32px;
