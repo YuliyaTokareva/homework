@@ -7,11 +7,12 @@ select,
 button {
   margin-bottom: 8px;
   margin-left: 8px;
+  margin-top: 8px;
 }
-/* .login-form > div:nth-child(1) input {
+.login-form > div:nth-child(1) input {
   margin: 0;
   margin-left: 8px;
-} */
+}
 .login-form {
   margin: 32px;
 }
