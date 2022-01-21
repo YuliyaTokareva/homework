@@ -7,10 +7,17 @@ select,
 button {
   margin: 4px 8px;
 }
+.login-form > div:nth-child(1) input {
+  margin: 0;
+  margin-left: 8px;
+}
 .login-form {
   margin: 32px;
 }
-.languages > input {
+.languages > input:nth-child(1) {
   margin: 0;
   margin-left: 8px;
+}
+.languages > input {
+  margin: 0;
 }
