@@ -26,6 +26,7 @@
 }
 .form-control {
   /* margin-top: 8px; */
+  margin-bottom: 8px;
 }
 .form-input {
   width: 100%;
@@ -34,7 +35,6 @@
   border: 1px solid #808080;
   padding: 4px;
   outline: none;
-  margin-bottom: 8px;
 }
 .submit-button {
   width: 100%;
