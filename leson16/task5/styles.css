@@ -7,6 +7,12 @@ select,
 button {
   margin: 0px 0px 8px 8px;
 }
+input {
+  display: block;
+}
+.languages input {
+  display: inline;
+}
 /* .login-form > div:nth-child(1) input {
   margin-top: 0;
 } */
