@@ -25,7 +25,6 @@
   text-transform: uppercase;
 }
 .form-control {
-  /* margin-top: 8px; */
   margin-bottom: 8px;
 }
 .form-input {
@@ -44,11 +43,8 @@
   color: #fff;
   border-radius: 4px;
   text-transform: uppercase;
-  /* border: 1px solid #808080; */
 }
-/* input:placeholder-shown {
-  border: 5px solid tomato;
-} */
+
 input:required {
   border: 3px solid #ff0000;
 }
