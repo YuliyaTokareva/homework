@@ -5,20 +5,19 @@ input,
 textarea,
 select,
 button {
-  margin: 8px;
-  display: block;
+  margin: 0px 0px 8px 8px;
 }
-.login-form > div:nth-child(1) input {
+/* .login-form > div:nth-child(1) input {
   margin-top: 0;
-}
+} */
 .login-form {
   margin: 32px;
 }
-.languages > input:nth-child(1) {
+/* .languages > input:nth-child(1) {
   margin: 0;
   margin-left: 8px;
   margin-top: 4px;
 }
 .languages > input {
   margin: 0;
-}
+} */
