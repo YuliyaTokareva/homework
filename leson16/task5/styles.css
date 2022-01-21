@@ -12,4 +12,5 @@ button {
 }
 .languages > input {
   margin: 0;
+  margin-left: 8px;
 }
