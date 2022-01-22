@@ -11,7 +11,10 @@ input {
   display: block;
 }
 .languages input {
-  display: inline;
+  display: inline-block;
+}
+.languages label {
+  display: inline-block;
 }
 /* .login-form > div:nth-child(1) input {
   margin-top: 0;
@@ -27,3 +30,6 @@ input {
 .languages > input {
   margin: 0;
 } */
+textarea {
+  display: block;
+}
