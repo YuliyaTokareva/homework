@@ -1,4 +1,4 @@
-.login-form {
+* {
   box-sizing: border-box;
 }
 input,
@@ -7,6 +7,9 @@ select,
 button {
   margin: 4px 8px;
   box-sizing: border-box;
+}
+.login-form {
+  margin: 0;
 }
 .login-form > div:nth-child(1) input {
   margin-top: 0;
@@ -23,14 +26,6 @@ button {
   margin: 0;
 }
 
-/* .languages > input:nth-child(1) {
-  margin: 0;
-  margin-left: 8px;
-  margin-top: 4px;
-}
-.languages > input {
-  margin: 0;
-} */
-textarea {
+/* textarea {
   display: block;
-}
+} */
