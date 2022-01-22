@@ -6,6 +6,7 @@ textarea,
 select,
 button {
   margin: 4px 8px;
+  box-sizing: border-box;
 }
 .login-form > div:nth-child(1) input {
   margin-top: 0;
