@@ -1,27 +1,27 @@
-* {
+.login-form {
   box-sizing: border-box;
 }
-/* input,
+input,
 textarea,
 select,
 button {
-  margin: 0px 0px 4px 8px;
-} */
-input {
-  display: block;
+  margin: 4px 8px;
 }
-.languages input {
-  display: inline-block;
-}
-.languages label {
-  display: inline-block;
-}
-/* .login-form > div:nth-child(1) input {
+.login-form > div:nth-child(1) input {
   margin-top: 0;
-} */
+}
 .login-form {
   margin: 32px;
 }
+.languages > input:nth-child(1) {
+  margin: 0;
+  margin-left: 8px;
+  margin-top: 4px;
+}
+.languages > input {
+  margin: 0;
+}
+
 /* .languages > input:nth-child(1) {
   margin: 0;
   margin-left: 8px;
