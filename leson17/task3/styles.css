@@ -2,20 +2,17 @@
   box-sizing: border-box;
 }
 td {
-  line-height: 50px;
+  height: 50px;
   width: 50px;
-  line-height: 50px;
   padding: 0px;
-  border: 1px solid black;
 }
 table {
   margin: 16px;
-  border: 1px solid black;
 }
 table,
 td {
   border-collapse: collapse;
-  /* border: 1px solid black; */
+  border: 1px solid black;
 }
 table tr:nth-child(odd) td:nth-child(even) {
   background-color: black;
