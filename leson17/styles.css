@@ -14,5 +14,8 @@ th {
 }
 tr {
   text-align: right;
-  border: 1px solid black;
+}
+tr,
+th {
+  padding: 4px;
 }
