@@ -12,10 +12,9 @@ th {
   border: 1px solid black;
   border-collapse: collapse;
 }
-tr {
-  text-align: right;
-}
 td,
 th {
   padding: 4px;
+  text-align: right;
+  padding-left: 0;
 }
