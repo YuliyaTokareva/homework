@@ -15,6 +15,7 @@ button {
 }
 button:hover {
   background-color: darkcyan;
+  color: green;
 }
 .bird-svg {
   width: 32px;
@@ -22,6 +23,6 @@ button:hover {
   fill: white;
   vertical-align: middle;
 }
-.bird-svg:hover {
+button:hover .bird-svg {
   fill: green;
 }
