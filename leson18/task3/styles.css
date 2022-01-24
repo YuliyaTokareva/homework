@@ -17,7 +17,3 @@ body {
 .battery-empty {
   font-size: 256px;
 }
-div {
-  display: flex;
-  justify-content: space-around;
-}
