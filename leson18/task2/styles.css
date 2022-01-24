@@ -15,7 +15,7 @@ button {
 }
 button:hover {
   /* background-color: darkcyan; */
-  color: green;
+  color: darkcyan;
 }
 .bird-svg {
   width: 32px;
