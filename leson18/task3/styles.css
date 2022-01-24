@@ -17,3 +17,6 @@ body {
 .battery-empty {
   font-size: 256px;
 }
+div {
+  flex: 100%;
+}
