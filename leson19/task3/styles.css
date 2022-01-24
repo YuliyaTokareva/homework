@@ -14,7 +14,8 @@
   text-transform: uppercase;
   animation: movivng 2s, blinking 2s;
   animation-iteration-count: infinite;
-  animation-direction: alternate;
+  /* animation-direction: alternate; */
+  animation-timing-function: linear;
 }
 .rect {
   background-color: black;
