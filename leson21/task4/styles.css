@@ -36,6 +36,8 @@ body {
 .section {
   width: 60%;
   font-size: 1.25em;
+}
+.css-units {
   line-height: 1.75em;
 }
 .news {
