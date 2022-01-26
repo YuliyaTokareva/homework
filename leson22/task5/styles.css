@@ -83,6 +83,17 @@ body {
   height: auto;
   width: 100%;
 }
+@media screen and (max-width: 1201px) {
+  .navigation {
+    width: 20%;
+  }
+  .section {
+    width: 60%;
+  }
+  .news {
+    width: 20%;
+  }
+}
 @media screen and (min-width: 600px) and (max-width: 1200px) {
   .main {
     flex-wrap: wrap;
