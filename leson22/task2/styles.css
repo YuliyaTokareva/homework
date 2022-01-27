@@ -36,6 +36,7 @@ span {
   .main-block {
     flex-direction: row;
     width: 66.6666%;
+    /* или flex:2; */
   }
   .products-list,
   .navigation,
