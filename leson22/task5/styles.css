@@ -11,7 +11,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   width: 100vw;
-  /* position: relative; */
+  position: relative;
 }
 .header {
   color: #fff;
@@ -22,10 +22,10 @@ body {
   padding: 0.5em;
   background-color: #e5e5e5;
   position: absolute;
-  bottom: 0px;
+  /* bottom: 0px; */
   width: 100vw;
   text-align: center;
-  /* bottom: -35px; */
+  bottom: -34px;
 }
 .navigation,
 .section,
