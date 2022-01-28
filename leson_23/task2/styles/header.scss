@@ -20,33 +20,37 @@ header {
 
     &:hover {
       background-color: $color-secondary-hover;
-      color: $bcolor-secondary-green;
+      color: $bcolor-secondary-yelloy;
+    }
+    & .submenu {
+      display: none;
     }
     &_active {
       position: relative;
-      //   background-color: $color-secondary-hover;
-      //   color: $bcolor-secondary-green;
-    }
-    .submenu {
-      display: none;
-      position: absolute;
-      top: $unit;
-      box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-      background-color: $bcolor-secondary-orange;
-      color: $color-main-text;
-      margin: 0;
-      padding: 0;
-      list-style-type: none;
-      min-width: 120px;
-      z-index: 1;
-      &__item {
-        padding: 0 $unit-secondary;
-        line-height: $unit;
+      background-color: $color-secondary-hover;
+      color: $bcolor-secondary-yelloy;
+      & .submenu {
+        //   display: none;
+        position: absolute;
+        top: $unit;
+        box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+        background-color: $bcolor-secondary-orange;
+        color: $color-main-text;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        min-width: 120px;
+        z-index: 1;
+        &__item {
+          padding: 0 $unit-secondary;
+          line-height: $unit;
+        }
+        &__item:hover {
+          color: $color-main-text-dark;
+        }
       }
-      &__item:hover {
-        color: $color-main-text-dark;
-      }
     }
+
     &_active:hover .submenu {
       display: block;
     }
