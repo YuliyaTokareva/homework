@@ -1,0 +1,54 @@
+@import "variables.scss";
+header {
+  background-color: $bcolor-main-green;
+}
+.menu {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-left: $unit;
+  align-items: center;
+  cursor: pointer;
+  &__item {
+    padding: $unit-secondary;
+    height: $unit;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: $color-main-text;
+
+    &:hover {
+      background-color: $color-secondary-hover;
+      color: $bcolor-secondary-green;
+    }
+    &_active {
+      position: relative;
+      //   background-color: $color-secondary-hover;
+      //   color: $bcolor-secondary-green;
+    }
+    .submenu {
+      display: none;
+      position: absolute;
+      top: $unit;
+      box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+      background-color: $bcolor-secondary-orange;
+      color: $color-main-text;
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      min-width: 120px;
+      z-index: 1;
+      &__item {
+        padding: 0 $unit-secondary;
+        line-height: $unit;
+      }
+      &__item:hover {
+        color: $color-main-text-dark;
+      }
+    }
+    &_active:hover .submenu {
+      display: block;
+    }
+  }
+}
