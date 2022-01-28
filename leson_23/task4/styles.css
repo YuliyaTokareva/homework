@@ -1,0 +1,77 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 900px) {
+  body {
+    display: flex;
+  }
+}
+
+span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 8px;
+  background-color: #faebd7;
+  border-radius: 4px;
+  text-transform: lowercase;
+  margin: auto;
+}
+
+.navigation,
+.products-list,
+.news {
+  height: 200px;
+  display: flex;
+  flex-grow: 1;
+}
+@media screen and (min-width: 900px) {
+  .navigation,
+.products-list,
+.news {
+    flex: 1 1 0;
+  }
+}
+
+.main-block {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 900px) {
+  .main-block {
+    flex-direction: row;
+    width: 66.6666%;
+    /* или flex:2; */
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 899px) {
+  .main-block {
+    flex-direction: row;
+  }
+}
+
+.navigation {
+  background-color: #ff7f50;
+}
+@media screen and (min-width: 600px) and (max-width: 899px) {
+  .navigation {
+    width: 50%;
+    flex-direction: row;
+  }
+}
+
+.products-list {
+  background-color: #006400;
+}
+@media screen and (min-width: 600px) and (max-width: 899px) {
+  .products-list {
+    width: 50%;
+    flex-direction: row;
+  }
+}
+
+.news {
+  background-color: #0ff;
+}
+
+/*# sourceMappingURL=styles.css.map */
