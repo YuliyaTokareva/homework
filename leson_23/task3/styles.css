@@ -22,9 +22,9 @@ body {
   background-color: #ff7f50;
   margin: 16px 8px;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 600px) and (max-width: 899px) {
   .square {
-    background-color: #c47;
+    background-color: #8a2be2;
   }
 }
 @media screen and (min-width: 900px) and (max-width: 1199px) {
@@ -32,9 +32,9 @@ body {
     background-color: #a61;
   }
 }
-@media screen and (min-width: 600px) and (max-width: 899px) {
+@media screen and (max-width: 1200px) {
   .square {
-    background-color: #8a2be2;
+    background-color: #c47;
   }
 }
 
